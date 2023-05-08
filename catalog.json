@@ -10,11 +10,12 @@
             "description": "Diskover is used to monitor size/volumes of distributed dataset.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://github.com/diskoverdata/diskover-community",
             "location": "/__w/charts/charts/charts/diskoverdata",
-            "latest_version": "1.0.8",
+            "latest_version": "1.0.9",
             "latest_app_version": "2.0.1",
-            "latest_human_version": "2.0.1_1.0.8",
-            "last_update": "2023-04-24 11:08:11",
+            "latest_human_version": "2.0.1_1.0.9",
+            "last_update": "2023-05-03 13:56:14",
             "name": "diskoverdata",
             "recommended": false,
             "title": "Diskover Data",
@@ -25,6 +26,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "http://www.diskoverdata.com/wp-content/uploads/2019/09/diskover.png"
         },
         "home-assistant": {
@@ -35,11 +37,12 @@
             "description": "Home Assistant App for TrueNAS SCALE",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://github.com/home-assistant/home-assistant",
             "location": "/__w/charts/charts/charts/home-assistant",
-            "latest_version": "1.0.85",
-            "latest_app_version": "2023.4.6",
-            "latest_human_version": "2023.4.6_1.0.85",
-            "last_update": "2023-05-01 16:02:53",
+            "latest_version": "1.0.88",
+            "latest_app_version": "2023.5.2",
+            "latest_human_version": "2023.5.2_1.0.88",
+            "last_update": "2023-05-07 15:37:00",
             "name": "home-assistant",
             "recommended": false,
             "title": "Home Assistant",
@@ -50,6 +53,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://avatars.githubusercontent.com/u/13844975?s=200&v=4"
         },
         "minio": {
@@ -61,6 +65,7 @@
             "description": "High Performance, Kubernetes Native Object Storage",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://min.io",
             "location": "/__w/charts/charts/charts/minio",
             "latest_version": "1.7.15",
             "latest_app_version": "2023-03-13",
@@ -70,6 +75,7 @@
             "recommended": false,
             "title": "Minio",
             "maintainers": [],
+            "tags": [],
             "icon_url": "https://min.io/resources/img/logo/MINIO_wordmark.png"
         },
         "photoprism": {
@@ -80,11 +86,12 @@
             "description": "AI-powered app for browsing, organizing & sharing your photo collection.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://photoprism.app/",
             "location": "/__w/charts/charts/charts/photoprism",
-            "latest_version": "1.0.17",
+            "latest_version": "1.0.18",
             "latest_app_version": "221118",
-            "latest_human_version": "221118_1.0.17",
-            "last_update": "2023-04-24 11:08:11",
+            "latest_human_version": "221118_1.0.18",
+            "last_update": "2023-05-03 13:56:14",
             "name": "photoprism",
             "recommended": false,
             "title": "PhotoPrism",
@@ -95,6 +102,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://photoprism.app/static/icons/logo.svg"
         },
         "plex": {
@@ -105,11 +113,12 @@
             "description": "Plex Media Server",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://plex.tv/",
             "location": "/__w/charts/charts/charts/plex",
-            "latest_version": "1.7.42",
+            "latest_version": "1.7.43",
             "latest_app_version": "1.32.0.6973",
-            "latest_human_version": "1.32.0.6973_1.7.42",
-            "last_update": "2023-04-24 11:08:11",
+            "latest_human_version": "1.32.0.6973_1.7.43",
+            "last_update": "2023-05-03 13:56:14",
             "name": "plex",
             "recommended": false,
             "title": "Plex",
@@ -120,6 +129,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png"
         },
         "ix-chart": {
@@ -130,11 +140,12 @@
             "description": "A Helm chart for deploying simple workloads Kubernetes",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://www.truenas.com/",
             "location": "/__w/charts/charts/charts/ix-chart",
-            "latest_version": "2304.0.5",
+            "latest_version": "2304.0.6",
             "latest_app_version": "v1",
-            "latest_human_version": "v1_2304.0.5",
-            "last_update": "2023-04-28 12:56:20",
+            "latest_human_version": "v1_2304.0.6",
+            "last_update": "2023-05-03 13:56:14",
             "name": "ix-chart",
             "recommended": false,
             "title": "ix-chart",
@@ -145,6 +156,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": null
         },
         "nextcloud": {
@@ -155,11 +167,12 @@
             "description": "A file sharing server that puts the control and security of your own data back into your hands.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://nextcloud.com/",
             "location": "/__w/charts/charts/charts/nextcloud",
-            "latest_version": "1.6.24",
+            "latest_version": "1.6.25",
             "latest_app_version": "26.0.1",
-            "latest_human_version": "26.0.1_1.6.24",
-            "last_update": "2023-04-24 11:08:11",
+            "latest_human_version": "26.0.1_1.6.25",
+            "last_update": "2023-05-03 13:56:14",
             "name": "nextcloud",
             "recommended": false,
             "title": "Nextcloud",
@@ -170,6 +183,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg"
         },
         "wg-easy": {
@@ -182,11 +196,12 @@
             "description": "WG-Easy is the easiest way to install & manage WireGuard!",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://github.com/WeeJeWel/wg-easy",
             "location": "/__w/charts/charts/charts/wg-easy",
-            "latest_version": "1.0.4",
+            "latest_version": "1.0.5",
             "latest_app_version": "7",
-            "latest_human_version": "7_1.0.4",
-            "last_update": "2023-04-24 11:08:11",
+            "latest_human_version": "7_1.0.5",
+            "last_update": "2023-05-03 13:56:14",
             "name": "wg-easy",
             "recommended": false,
             "title": "WG Easy",
@@ -197,6 +212,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://raw.githubusercontent.com/WeeJeWel/wg-easy/master/src/www/img/logo.png"
         },
         "elastic-search": {
@@ -208,11 +224,12 @@
             "description": "Elasticsearch is the distributed, RESTful search and analytics engine at the heart of the Elastic Stack.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://www.elastic.co",
             "location": "/__w/charts/charts/charts/elastic-search",
-            "latest_version": "1.0.3",
-            "latest_app_version": "8.7.0",
-            "latest_human_version": "8.7.0_1.0.3",
-            "last_update": "2023-04-19 22:29:44",
+            "latest_version": "1.0.5",
+            "latest_app_version": "8.7.1",
+            "latest_human_version": "8.7.1_1.0.5",
+            "last_update": "2023-05-03 13:56:14",
             "name": "elastic-search",
             "recommended": false,
             "title": "Elastic Search",
@@ -223,6 +240,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt280217a63b82a734/6202d3378b1f312528798412/elastic-logo.svg"
         },
         "collabora": {
@@ -235,11 +253,12 @@
             "description": "Collabora Online Development Edition \\u2013 an awesome, Online Office\nsuite image suitable for home use.\n",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://github.com/CollaboraOnline/online",
             "location": "/__w/charts/charts/charts/collabora",
-            "latest_version": "1.2.10",
+            "latest_version": "1.2.11",
             "latest_app_version": "21.11.4.1.1",
-            "latest_human_version": "21.11.4.1.1_1.2.10",
-            "last_update": "2023-04-24 11:08:11",
+            "latest_human_version": "21.11.4.1.1_1.2.11",
+            "last_update": "2023-05-03 13:56:14",
             "name": "collabora",
             "recommended": false,
             "title": "Collabora",
@@ -250,6 +269,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://avatars.githubusercontent.com/u/22418908?s=200&v=4"
         },
         "syncthing": {
@@ -261,11 +281,12 @@
             "description": "Syncthing is a continuous file synchronization program.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://syncthing.net/",
             "location": "/__w/charts/charts/charts/syncthing",
-            "latest_version": "1.0.24",
+            "latest_version": "1.0.25",
             "latest_app_version": "1.23.4",
-            "latest_human_version": "1.23.4_1.0.24",
-            "last_update": "2023-04-24 11:08:11",
+            "latest_human_version": "1.23.4_1.0.25",
+            "last_update": "2023-05-03 13:56:14",
             "name": "syncthing",
             "recommended": false,
             "title": "Syncthing",
@@ -276,6 +297,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://play-lh.googleusercontent.com/KIy_dqUdZqcsTq4GDstHrHwLRvu60gT3v0p41gw792BC6OxamNhUw2eIy0-LI05qNEA=w240-h480"
         },
         "emby": {
@@ -286,11 +308,12 @@
             "description": "Emby Server",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://emby.media/",
             "location": "/__w/charts/charts/charts/emby",
-            "latest_version": "1.0.21",
+            "latest_version": "1.0.22",
             "latest_app_version": "4.7.11.0",
-            "latest_human_version": "4.7.11.0_1.0.21",
-            "last_update": "2023-04-24 11:08:11",
+            "latest_human_version": "4.7.11.0_1.0.22",
+            "last_update": "2023-05-03 13:56:14",
             "name": "emby",
             "recommended": false,
             "title": "Emby Server",
@@ -301,6 +324,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://images-na.ssl-images-amazon.com/images/I/41NwssJC1iL.png"
         },
         "storj": {
@@ -314,11 +338,12 @@
             "description": "Share your storage on the internet and earn.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://www.storj.io",
             "location": "/__w/charts/charts/charts/storj",
-            "latest_version": "1.0.9",
+            "latest_version": "1.0.11",
             "latest_app_version": "v1.68.2",
-            "latest_human_version": "v1.68.2_1.0.9",
-            "last_update": "2023-04-24 11:08:11",
+            "latest_human_version": "v1.68.2_1.0.11",
+            "last_update": "2023-05-03 13:56:14",
             "name": "storj",
             "recommended": false,
             "title": "Storj",
@@ -329,6 +354,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://assets-global.website-files.com/602eda09fc78afc76e9706b6/60917835a05862243e7de9af_logo.svg"
         },
         "netdata": {
@@ -339,11 +365,12 @@
             "description": "Real-time performance monitoring, done right!",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://www.netdata.cloud/",
             "location": "/__w/charts/charts/charts/netdata",
-            "latest_version": "1.0.19",
+            "latest_version": "1.0.20",
             "latest_app_version": "v1.38.1",
-            "latest_human_version": "v1.38.1_1.0.19",
-            "last_update": "2023-04-24 11:08:11",
+            "latest_human_version": "v1.38.1_1.0.20",
+            "last_update": "2023-05-03 13:56:14",
             "name": "netdata",
             "recommended": false,
             "title": "Netdata",
@@ -354,6 +381,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://netdata.github.io/helmchart/logo.png"
         },
         "prometheus": {
@@ -365,11 +393,12 @@
             "description": "The Prometheus monitoring system and time series database.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://prometheus.io",
             "location": "/__w/charts/charts/charts/prometheus",
-            "latest_version": "1.0.2",
-            "latest_app_version": "v2.43.0",
-            "latest_human_version": "v2.43.0_1.0.2",
-            "last_update": "2023-04-20 13:31:52",
+            "latest_version": "1.0.4",
+            "latest_app_version": "v2.43.1",
+            "latest_human_version": "v2.43.1_1.0.4",
+            "last_update": "2023-05-05 09:25:34",
             "name": "prometheus",
             "recommended": false,
             "title": "Prometheus",
@@ -380,6 +409,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://avatars.githubusercontent.com/u/3380462"
         },
         "pihole": {
@@ -391,11 +421,12 @@
             "description": "DNS and Ad-filtering for your network.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://pi-hole.net/",
             "location": "/__w/charts/charts/charts/pihole",
-            "latest_version": "1.0.17",
+            "latest_version": "1.0.18",
             "latest_app_version": "2023.02.2",
-            "latest_human_version": "2023.02.2_1.0.17",
-            "last_update": "2023-04-24 11:08:11",
+            "latest_human_version": "2023.02.2_1.0.18",
+            "last_update": "2023-05-03 13:56:14",
             "name": "pihole",
             "recommended": false,
             "title": "Pi-hole",
@@ -406,6 +437,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://github.com/pi-hole/graphics/raw/master/Vortex/Vortex_Vertical_wordmark_lightmode.png?raw=true)"
         }
     },
@@ -421,11 +453,12 @@
             "description": "The qBittorrent project aims to provide an open-source software alternative to \u00b5Torrent.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://www.qbittorrent.org/",
             "location": "/__w/charts/charts/community/qbittorrent",
-            "latest_version": "1.0.6",
+            "latest_version": "1.0.7",
             "latest_app_version": "4.5.2",
-            "latest_human_version": "4.5.2_1.0.6",
-            "last_update": "2023-04-26 15:00:54",
+            "latest_human_version": "4.5.2_1.0.7",
+            "last_update": "2023-05-03 13:56:14",
             "name": "qbittorrent",
             "recommended": false,
             "title": "qBittorrent",
@@ -436,6 +469,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Qbittorrent_logo.png"
         },
         "chia": {
@@ -447,11 +481,12 @@
             "description": "Chia is a modern cryptocurrency built from scratch, designed to be efficient, decentralized, and secure.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://www.chia.net/",
             "location": "/__w/charts/charts/community/chia",
-            "latest_version": "1.0.5",
-            "latest_app_version": "1.7.1",
-            "latest_human_version": "1.7.1_1.0.5",
-            "last_update": "2023-04-11 15:25:54",
+            "latest_version": "1.0.7",
+            "latest_app_version": "1.8.0",
+            "latest_human_version": "1.8.0_1.0.7",
+            "last_update": "2023-05-04 11:22:55",
             "name": "chia",
             "recommended": false,
             "title": "Chia",
@@ -462,7 +497,36 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://www.chia.net/wp-content/uploads/2022/09/chia-logo.svg"
+        },
+        "terraria": {
+            "app_readme": "<h1>Terraria</h1>\n<p><a href=\"https://terraria.org/\">Terraria</a> is a land of adventure! A land of mystery! A land that's yours to shape, defend, and enjoy.</p>\n<p>This applies only for the <code>TShock</code> image.\nOn the first run, you have to check the logs to get the server token. You will find something like this:</p>\n<p><code>text\nLogin before join enabled. Users may be prompted for an account specific password instead of a server password on connect.\nLogin using UUID enabled. Users automatically login via UUID.\nA malicious server can easily steal a user's UUID. You may consider turning this option off if you run a public server.\nTShock Notice: setup-code.txt is still present, and the code located in that file will be used.\nTo setup the server, join the game and type /setup 424041\nThis token will display until disabled by verification. (/setup)</code></p>\n<p>Join the server and run <code>/setup &lt;token&gt;</code></p>",
+            "categories": [
+                "game",
+                "terraria"
+            ],
+            "description": "Terraria is a land of adventure! A land of mystery! A land that's yours to shape, defend, and enjoy.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://terraria.org/",
+            "location": "/__w/charts/charts/community/terraria",
+            "latest_version": "1.0.0",
+            "latest_app_version": "1.4.4.9",
+            "latest_human_version": "1.4.4.9_1.0.0",
+            "last_update": "2023-05-05 19:20:46",
+            "name": "terraria",
+            "recommended": false,
+            "title": "Terraria",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a4/NewPromoLogo.png/revision/latest"
         },
         "radarr": {
             "app_readme": "<h1>Radarr</h1>\n<p><a href=\"https://github.com/Radarr/Radarr\">Radarr</a> is a movie collection manager for Usenet and BitTorrent users.</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>Radarr</code> directories.\nAfterward, the <code>Radarr</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).\nAll mounted storage(s) will be <code>chown</code>ed only if the parent directory does not match the configured user.</p>\n</blockquote>",
@@ -473,11 +537,12 @@
             "description": "Radarr is a movie collection manager for Usenet and BitTorrent users.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://github.com/Radarr/Radarr",
             "location": "/__w/charts/charts/community/radarr",
-            "latest_version": "1.0.6",
+            "latest_version": "1.0.7",
             "latest_app_version": "4.4.4.7068",
-            "latest_human_version": "4.4.4.7068_1.0.6",
-            "last_update": "2023-04-26 15:00:54",
+            "latest_human_version": "4.4.4.7068_1.0.7",
+            "last_update": "2023-05-03 13:56:14",
             "name": "radarr",
             "recommended": false,
             "title": "Radarr",
@@ -488,6 +553,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://raw.githubusercontent.com/Radarr/Radarr/develop/Logo/256.png"
         },
         "nginx-proxy-manager": {
@@ -499,11 +565,12 @@
             "description": "Expose your services easily and securely",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://nginxproxymanager.com/",
             "location": "/__w/charts/charts/community/nginx-proxy-manager",
-            "latest_version": "1.0.1",
+            "latest_version": "1.0.2",
             "latest_app_version": "2.10.2",
-            "latest_human_version": "2.10.2_1.0.1",
-            "last_update": "2023-04-19 22:26:54",
+            "latest_human_version": "2.10.2_1.0.2",
+            "last_update": "2023-05-03 13:56:14",
             "name": "nginx-proxy-manager",
             "recommended": false,
             "title": "Nginx Proxy Manager",
@@ -514,6 +581,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://nginxproxymanager.com/logo.png"
         },
         "lidarr": {
@@ -525,11 +593,12 @@
             "description": "Lidarr is a music collection manager for Usenet and BitTorrent users.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://github.com/Lidarr/Lidarr",
             "location": "/__w/charts/charts/community/lidarr",
-            "latest_version": "1.0.4",
+            "latest_version": "1.0.5",
             "latest_app_version": "1.1.3.2982",
-            "latest_human_version": "1.1.3.2982_1.0.4",
-            "last_update": "2023-04-26 15:00:54",
+            "latest_human_version": "1.1.3.2982_1.0.5",
+            "last_update": "2023-05-03 13:56:14",
             "name": "lidarr",
             "recommended": false,
             "title": "Lidarr",
@@ -540,6 +609,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://raw.githubusercontent.com/Lidarr/Lidarr/develop/Logo/256.png"
         },
         "gitea": {
@@ -551,11 +621,12 @@
             "description": "Gitea - Git with a cup of tea",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://gitea.io/en-us",
             "location": "/__w/charts/charts/community/gitea",
-            "latest_version": "1.0.2",
+            "latest_version": "1.0.3",
             "latest_app_version": "1.19.0",
-            "latest_human_version": "1.19.0_1.0.2",
-            "last_update": "2023-04-20 13:31:52",
+            "latest_human_version": "1.19.0_1.0.3",
+            "last_update": "2023-05-03 13:56:14",
             "name": "gitea",
             "recommended": false,
             "title": "Gitea",
@@ -566,7 +637,35 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://gitea.com/assets/img/logo.svg"
+        },
+        "minecraft": {
+            "app_readme": "<h1>Minecraft</h1>\n<p><a href=\"https://www.minecraft.net/en-us\">Minecraft</a> is a sandbox game</p>\n<blockquote>\n<p>Application requires to run as root.</p>\n</blockquote>\n<p>Depending on the <code>Type</code> of server selected, you might need to add additional\ncustom environment variables to the application.</p>\n<p>More info can be found <a href=\"https://itzg.github.io/docker-minecraft-docs/java/server-types/bukkit-spigot/\">here</a>\nSelect the type on the sidebar.</p>\n<p>Note that some values are only applicable during the world generation.\nMore info can be found <a href=\"https://itzg.github.io/docker-minecraft-docs/\">here</a></p>",
+            "categories": [
+                "minecraft"
+            ],
+            "description": "Minecraft is a sandbox game",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://www.minecraft.net/en-us",
+            "location": "/__w/charts/charts/community/minecraft",
+            "latest_version": "1.0.0",
+            "latest_app_version": "2023.3.0",
+            "latest_human_version": "2023.3.0_1.0.0",
+            "last_update": "2023-05-03 11:56:13",
+            "name": "minecraft",
+            "recommended": false,
+            "title": "Minecraft",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://www.minecraft.net/content/dam/games/minecraft/logos/logo-minecraft.svg"
         },
         "tdarr": {
             "app_readme": "<h1>Tdarr</h1>\n<p><a href=\"https://home.tdarr.io/\">Tdarr</a> is a Distributed Transcoding System</p>\n<ul>\n<li>App runs as <code>root</code> user</li>\n</ul>",
@@ -578,11 +677,12 @@
             "description": "Tdarr is a Distributed Transcoding System",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://home.tdarr.io/",
             "location": "/__w/charts/charts/community/tdarr",
-            "latest_version": "1.0.1",
+            "latest_version": "1.0.2",
             "latest_app_version": "2.00.20.1",
-            "latest_human_version": "2.00.20.1_1.0.1",
-            "last_update": "2023-04-26 16:35:52",
+            "latest_human_version": "2.00.20.1_1.0.2",
+            "last_update": "2023-05-03 13:56:14",
             "name": "tdarr",
             "recommended": false,
             "title": "Tdarr",
@@ -593,6 +693,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://home.tdarr.io/static/media/logo3-min.246d6df4.png"
         },
         "vaultwarden": {
@@ -604,11 +705,12 @@
             "description": "Alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://github.com/dani-garcia/vaultwarden",
             "location": "/__w/charts/charts/community/vaultwarden",
-            "latest_version": "1.0.5",
+            "latest_version": "1.0.6",
             "latest_app_version": "1.28.1",
-            "latest_human_version": "1.28.1_1.0.5",
-            "last_update": "2023-04-20 13:31:52",
+            "latest_human_version": "1.28.1_1.0.6",
+            "last_update": "2023-05-03 13:56:14",
             "name": "vaultwarden",
             "recommended": false,
             "title": "Vaultwarden",
@@ -619,8 +721,9 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
-            "icon": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/main/src/static/images/vaultwarden-icon.png",
-            "icon_url": null
+            "tags": [],
+            "icon_url": null,
+            "icon": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/main/src/static/images/vaultwarden-icon.png"
         },
         "tailscale": {
             "app_readme": "<h1>Tailscale</h1>\n<p><a href=\"https://tailscale.com\">Tailscale</a> Secure remote access to shared resources</p>\n<ul>\n<li>When <code>Userspace</code> is <strong>disabled</strong>, <code>Tailscale</code> will run as root, with <code>/dev/net/tun</code> device mounted from the host.</li>\n<li>When <code>Userspace</code> is <strong>enabled</strong>, <code>Tailscale</code> will run as a non-root user.</li>\n</ul>",
@@ -631,11 +734,12 @@
             "description": "Secure remote access to shared resources",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://tailscale.com/",
             "location": "/__w/charts/charts/community/tailscale",
-            "latest_version": "1.0.1",
+            "latest_version": "1.0.2",
             "latest_app_version": "v1.38.4",
-            "latest_human_version": "v1.38.4_1.0.1",
-            "last_update": "2023-04-19 22:34:28",
+            "latest_human_version": "v1.38.4_1.0.2",
+            "last_update": "2023-05-03 13:56:14",
             "name": "tailscale",
             "recommended": false,
             "title": "Tailscale",
@@ -646,7 +750,64 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://avatars.githubusercontent.com/u/48932923"
+        },
+        "zerotier": {
+            "app_readme": "<h1>Zerotier</h1>\n<p><a href=\"https://www.zerotier.com\">Zerotier</a> Securely connect any device, anywhere.</p>",
+            "categories": [
+                "vpn",
+                "zerotier"
+            ],
+            "description": "Securely connect any device, anywhere.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://www.zerotier.com",
+            "location": "/__w/charts/charts/community/zerotier",
+            "latest_version": "1.0.0",
+            "latest_app_version": "1.10.6",
+            "latest_human_version": "1.10.6_1.0.0",
+            "last_update": null,
+            "name": "zerotier",
+            "recommended": false,
+            "title": "Zerotier",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://avatars.githubusercontent.com/u/4173285"
+        },
+        "jellyfin": {
+            "app_readme": "<h1>Jellyfin</h1>\n<p><a href=\"https://jellyfin.org/\">Jellyfin</a> is a Free Software Media System that puts you in control of managing and streaming your media.</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>Jellyfin</code> directories.\nAfterward, the <code>Jellyfin</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).\nAll mounted storage(s) will be <code>chown</code>ed only if the parent directory does not match the configured user.</p>\n</blockquote>",
+            "categories": [
+                "media",
+                "streaming"
+            ],
+            "description": "Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://jellyfin.org/",
+            "location": "/__w/charts/charts/community/jellyfin",
+            "latest_version": "1.0.0",
+            "latest_app_version": "10.8.10",
+            "latest_human_version": "10.8.10_1.0.0",
+            "last_update": "2023-05-02 15:25:00",
+            "name": "jellyfin",
+            "recommended": false,
+            "title": "Jellyfin",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://jellyfin.org/images/logo.svg"
         },
         "sonarr": {
             "app_readme": "<h1>Sonarr</h1>\n<p><a href=\"https://github.com/Sonarr/Sonarr\">Sonarr</a> is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them.</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>Sonarr</code> directories.\nAfterward, the <code>Sonarr</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).\nAll mounted storage(s) will be <code>chown</code>ed only if the parent directory does not match the configured user.</p>\n</blockquote>",
@@ -657,11 +818,12 @@
             "description": "Sonarr is a PVR for Usenet and BitTorrent users.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://github.com/Sonarr/Sonarr",
             "location": "/__w/charts/charts/community/sonarr",
-            "latest_version": "1.0.4",
+            "latest_version": "1.0.5",
             "latest_app_version": "3.0.10.1567",
-            "latest_human_version": "3.0.10.1567_1.0.4",
-            "last_update": "2023-04-26 15:00:54",
+            "latest_human_version": "3.0.10.1567_1.0.5",
+            "last_update": "2023-05-03 13:56:14",
             "name": "sonarr",
             "recommended": false,
             "title": "Sonarr",
@@ -672,6 +834,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://raw.githubusercontent.com/Sonarr/Sonarr/develop/Logo/256.png"
         },
         "adguard-home": {
@@ -683,11 +846,12 @@
             "description": "Free and open source, powerful network-wide ads & trackers blocking DNS server.",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://github.com/AdguardTeam/AdGuardHome",
             "location": "/__w/charts/charts/community/adguard-home",
-            "latest_version": "1.0.1",
+            "latest_version": "1.0.2",
             "latest_app_version": "v0.107.26",
-            "latest_human_version": "v0.107.26_1.0.1",
-            "last_update": "2023-04-11 15:36:31",
+            "latest_human_version": "v0.107.26_1.0.2",
+            "last_update": "2023-05-03 13:56:14",
             "name": "adguard-home",
             "recommended": false,
             "title": "AdGuard Home",
@@ -698,7 +862,35 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://github.com/AdguardTeam/AdGuardHome/raw/master/doc/adguard_home_darkmode.svg"
+        },
+        "mumble": {
+            "app_readme": "<h1>Mumble</h1>\n<p><a href=\"https://www.mumble.info/\">Mumble</a> is an Open Source, Low Latency, High Quality Voice Chat Home Downloads Documentation Blog Contribute About</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>Mumble</code> directories.\nAfterward, the <code>Mumble</code> container will run as a <strong>non</strong>-root user (<code>1000</code>, Cannot change).</p>\n</blockquote>\n<p>You can change the server configuration by adding additional environment variables.\nPrefix the configuration variable with <code>MUMBLE_CONFIG_</code> and it will be added to the configuration file.\nView the <a href=\"https://wiki.mumble.info/wiki/Murmur.ini\">Mumble Configuration File</a> for more information.</p>\n<p>For example you can set <code>autobanAttempts</code> like this:</p>\n<ul>\n<li>Name: <code>MUMBLE_CONFIG_autobanAttempts</code></li>\n<li>Value: <code>5</code></li>\n</ul>",
+            "categories": [
+                "voice"
+            ],
+            "description": "Mumble is a free, open source, low latency, high quality voice chat application.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://www.mumble.info/",
+            "location": "/__w/charts/charts/community/mumble",
+            "latest_version": "1.0.0",
+            "latest_app_version": "v1.4.230",
+            "latest_human_version": "v1.4.230_1.0.0",
+            "last_update": "2023-05-05 19:22:12",
+            "name": "mumble",
+            "recommended": false,
+            "title": "Mumble",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://github.com/mumble-voip/mumble/blob/master/icons/mumble.svg"
         },
         "ipfs": {
             "app_readme": "<h1>IPFS</h1>\n<p><a href=\"https://ipfs.tech\">Interplanetary Filesystem</a> - the Web3 standard for content-addressing, interoperable with HTTP</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the ipfs directories.\nAfterward, the <code>ipfs</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).</p>\n</blockquote>",
@@ -710,11 +902,12 @@
             "description": "Interplanetary Filesystem - the Web3 standard for content-addressing, interoperable with HTTP",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://ipfs.tech/",
             "location": "/__w/charts/charts/community/ipfs",
-            "latest_version": "1.0.5",
-            "latest_app_version": "v0.19.1",
-            "latest_human_version": "v0.19.1_1.0.5",
-            "last_update": "2023-04-20 13:31:52",
+            "latest_version": "1.0.7",
+            "latest_app_version": "v0.19.2",
+            "latest_human_version": "v0.19.2_1.0.7",
+            "last_update": "2023-05-04 11:22:55",
             "name": "ipfs",
             "recommended": false,
             "title": "IPFS",
@@ -725,6 +918,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://avatars.githubusercontent.com/u/10536621"
         }
     },
@@ -739,11 +933,12 @@
             "description": "High Performance, Kubernetes Native Object Storage",
             "healthy": true,
             "healthy_error": null,
+            "home": "https://min.io",
             "location": "/__w/charts/charts/enterprise/minio",
-            "latest_version": "1.0.6",
+            "latest_version": "1.0.7",
             "latest_app_version": "2023-03-24",
-            "latest_human_version": "2023-03-24_1.0.6",
-            "last_update": "2023-04-20 13:31:52",
+            "latest_human_version": "2023-03-24_1.0.7",
+            "last_update": "2023-05-03 13:56:14",
             "name": "minio",
             "recommended": false,
             "title": "MinIO",
@@ -754,6 +949,7 @@
                     "email": "dev@ixsystems.com"
                 }
             ],
+            "tags": [],
             "icon_url": "https://min.io/resources/img/logo/MINIO_wordmark.png"
         }
     }

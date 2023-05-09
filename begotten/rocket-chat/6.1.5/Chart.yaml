@@ -1,4 +1,4 @@
-name: rocketchat
+name: rocket-chat
 description: Prepare to take off with the ultimate chat platform, experience the next level of team communications
 annotations:
   title: 'Rocket.Chat'
@@ -14,11 +14,11 @@ dependencies:
     repository: file://../../../common/2304.0.1
     version: 2304.0.1
   - name: mongodb
-    repository: file://charts/mongodb-13.10.2
+    repository: https://charts.bitnami.com/bitnami
     version: 13.10.2
     condition: mongodb.enabled
   - name: nats
-    repository: file://charts/nats-0.15.1
+    repository: https://nats-io.github.io/k8s/helm/charts
     version: 0.15.1
     condition: microservices.enabled
 home: https://rocket.chat/

@@ -18,6 +18,16 @@ groups:
   - name: "Resource Limits"
     description: "Set CPU/memory limits for Kubernetes Pod"
 
+portals:
+  web_portal:
+    protocols:
+      - "http"
+    host:
+      - "$node_ip"
+    ports:
+      - "$variable-service.nodePort"
+    path: "/"
+
 questions:
   # Update strategy
   - variable: updateStrategy

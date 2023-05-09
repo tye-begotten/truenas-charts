@@ -18,8 +18,9 @@ groups:
   # - name: "Advanced DNS Settings"
   #   description: "Configure DNS settings"
   # - name: "Resource Limits"
-    description: "Set CPU/memory limits for Kubernetes Pod"
+  #  description: "Set CPU/memory limits for Kubernetes Pod"
 
+questions:
   - variable: extraVolumes
     label: "Rocket.Chat Storage"
     group: "Storage"

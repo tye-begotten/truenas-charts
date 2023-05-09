@@ -5,6 +5,8 @@ groups:
     description: "Configuration details for Rocket.Chat workload"
   - name: "Storage"
     description: "Configure Storage for Rocket.Chat"
+  - name: "MongoDB Configuration"
+    description: "Configuration details for the MongoDB instance used by Rocket.Chat"
   # - name: "Container Configuration"
   #   description: "Configure nextcloud container parameters"
   # - name: "Postgresql Configuration"
@@ -29,6 +31,28 @@ portals:
     path: "/"
 
 questions:
+  - variable: mongodb
+    group: "MongoDB Configuration"
+    label: "MongoDB"
+    schema:
+      type: dict
+      attrs:
+        - variable: auth
+          label: "Authentication"
+          schema:
+            type: dict
+            attrs:
+              - variable: rootPassword
+                label: "Root Password"
+                schema:
+                  type: string
+                  required: true
+                  private: true
+              - variable: passwords
+                label: "Database Password"
+                schema:
+                  type: list
+                  required: true
   # Update strategy
   - variable: updateStrategy
     description: "Upgrade Policy"

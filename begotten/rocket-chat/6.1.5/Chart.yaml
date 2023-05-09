@@ -10,13 +10,16 @@ maintainers:
   - email: cloud@rocket.chat
     name: RocketChat
 dependencies:
+  - name: common
+    repository: file://../../../common/2304.0.1
+    version: 2304.0.1
   - name: mongodb
-    repository: https://charts.bitnami.com/bitnami
-    version: 13.x.x
+    repository: file://charts/mongodb-13.10.2
+    version: 13.10.2
     condition: mongodb.enabled
   - name: nats
-    repository: https://nats-io.github.io/k8s/helm/charts
-    version: 0.15.x
+    repository: file://charts/nats-0.15.1
+    version: 0.15.1
     condition: microservices.enabled
 home: https://rocket.chat/
 icon: https://raw.githubusercontent.com/RocketChat/Rocket.Chat.Artwork/master/Logos/icon.svg

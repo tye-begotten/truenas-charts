@@ -43,16 +43,16 @@ questions:
             type: dict
             attrs:
               - variable: rootPassword
-                label: "Root Password"
+                label: "Database Password"
                 schema:
                   type: string
                   required: true
                   private: true
-              - variable: passwords
-                label: "Database Password"
-                schema:
-                  type: list
-                  required: true
+              # - variable: passwords
+              #   label: "Database Password"
+              #   schema:
+              #     type: list
+              #     required: true
   # Update strategy
   - variable: updateStrategy
     description: "Upgrade Policy"

@@ -98,11 +98,11 @@ mongodb:
   initdbScriptsConfigMap: rocketchat-mongodb-fix-clustermonitor-role-configmap
 
   auth:
-    rootPassword: &rootPasswordRef
+    rootPassword:
     usernames:
       - rocketchat
     passwords:
-      - *rootPasswordRef
+      - "mongodbadmin" #temporary to test chart
     databases:
       - rocketchat
 

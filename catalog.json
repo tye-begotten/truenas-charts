@@ -1,24 +1,23 @@
 {
     "charts": {
-        "diskoverdata": {
-            "app_readme": "<p>DiskOver App for TrueNAS SCALE</p>",
+        "syncthing": {
+            "app_readme": "<h1>Syncthing</h1>\n<p><a href=\"https://syncthing.net/\">syncthing</a> is a continuous file synchronization program. It synchronizes files between two or\nmore computers in real time, safely protected from prying eyes.</p>\n<blockquote>\n<p><strong>WARNING</strong> Do check out https://docs.syncthing.net/users/faq.html#what-things-are-synced to see what is synced.</p>\n</blockquote>",
             "categories": [
-                "storage",
-                "monitoring",
-                "management"
+                "backup",
+                "storage"
             ],
-            "description": "Diskover is used to monitor size/volumes of distributed dataset.",
+            "description": "Syncthing is a continuous file synchronization program.",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://github.com/diskoverdata/diskover-community",
-            "location": "/__w/truenas-charts/truenas-charts/charts/diskoverdata",
-            "latest_version": "1.0.9",
-            "latest_app_version": "2.0.1",
-            "latest_human_version": "2.0.1_1.0.9",
+            "home": "https://syncthing.net/",
+            "location": "/__w/truenas-charts/truenas-charts/charts/syncthing",
+            "latest_version": "1.0.25",
+            "latest_app_version": "1.23.4",
+            "latest_human_version": "1.23.4_1.0.25",
             "last_update": "2023-05-03 13:56:14",
-            "name": "diskoverdata",
+            "name": "syncthing",
             "recommended": false,
-            "title": "Diskover Data",
+            "title": "Syncthing",
             "maintainers": [
                 {
                     "name": "truenas",
@@ -27,221 +26,7 @@
                 }
             ],
             "tags": [],
-            "icon_url": "http://www.diskoverdata.com/wp-content/uploads/2019/09/diskover.png"
-        },
-        "home-assistant": {
-            "app_readme": "<p>home-assistant App for TrueNAS SCALE</p>",
-            "categories": [
-                "home-automation"
-            ],
-            "description": "Home Assistant App for TrueNAS SCALE",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://github.com/home-assistant/home-assistant",
-            "location": "/__w/truenas-charts/truenas-charts/charts/home-assistant",
-            "latest_version": "1.0.88",
-            "latest_app_version": "2023.5.2",
-            "latest_human_version": "2023.5.2_1.0.88",
-            "last_update": "2023-05-07 15:37:00",
-            "name": "home-assistant",
-            "recommended": false,
-            "title": "Home Assistant",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://avatars.githubusercontent.com/u/13844975?s=200&v=4"
-        },
-        "minio": {
-            "app_readme": "<p><a href=\"https://min.io\">MinIO</a> is a High Performance Object Storage released under Apache License v2.0. It is API compatible with Amazon S3 cloud storage service. Use MinIO to build high performance infrastructure for machine learning, analytics and application data workloads.</p>\n<p><strong>NOTE</strong>\n- On installation, minIO data directory's ownership will be updated to minio:minio.\n- For existing installations that are exhibiting the upgrade to &gt;=1.5.0, the minIO data directory's ownership will be migrated to minio:minio.</p>",
-            "categories": [
-                "storage",
-                "S3"
-            ],
-            "description": "High Performance, Kubernetes Native Object Storage",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://min.io",
-            "location": "/__w/truenas-charts/truenas-charts/charts/minio",
-            "latest_version": "1.7.15",
-            "latest_app_version": "2023-03-13",
-            "latest_human_version": "2023-03-13_1.7.15",
-            "last_update": "2023-03-14 13:28:13",
-            "name": "minio",
-            "recommended": false,
-            "title": "Minio",
-            "maintainers": [],
-            "tags": [],
-            "icon_url": "https://min.io/resources/img/logo/MINIO_wordmark.png"
-        },
-        "photoprism": {
-            "app_readme": "<h1>Photo Prism</h1>\n<p>PhotoPrism is a server-based application for browsing, organizing and sharing your personal photo collection.</p>",
-            "categories": [
-                "media"
-            ],
-            "description": "AI-powered app for browsing, organizing & sharing your photo collection.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://photoprism.app/",
-            "location": "/__w/truenas-charts/truenas-charts/charts/photoprism",
-            "latest_version": "1.0.18",
-            "latest_app_version": "221118",
-            "latest_human_version": "221118_1.0.18",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "photoprism",
-            "recommended": false,
-            "title": "PhotoPrism",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://photoprism.app/static/icons/logo.svg"
-        },
-        "plex": {
-            "app_readme": "<h1>Plex</h1>\n<p>Plex chart is a chart designed to deploy plex in a TrueNAS SCALE kubernetes cluster.</p>",
-            "categories": [
-                "entertainment"
-            ],
-            "description": "Plex Media Server",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://plex.tv/",
-            "location": "/__w/truenas-charts/truenas-charts/charts/plex",
-            "latest_version": "1.7.43",
-            "latest_app_version": "1.32.0.6973",
-            "latest_human_version": "1.32.0.6973_1.7.43",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "plex",
-            "recommended": false,
-            "title": "Plex",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png"
-        },
-        "ix-chart": {
-            "app_readme": "<h1>iX-Chart</h1>\n<p>iX-chart is a chart designed to let user deploy a docker image in a TrueNAS SCALE kubernetes cluster.\nIt provides a mechanism to specify workload type, add external host interfaces in the pods, configure volumes and allocate host resources to the workload.</p>",
-            "categories": [
-                "generic"
-            ],
-            "description": "A Helm chart for deploying simple workloads Kubernetes",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://www.truenas.com/",
-            "location": "/__w/truenas-charts/truenas-charts/charts/ix-chart",
-            "latest_version": "2304.0.6",
-            "latest_app_version": "v1",
-            "latest_human_version": "v1_2304.0.6",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "ix-chart",
-            "recommended": false,
-            "title": "ix-chart",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": null
-        },
-        "nextcloud": {
-            "app_readme": "<h1>nextcloud</h1>\n<p><a href=\"https://nextcloud.com/\">nextcloud</a> is a file sharing server that puts the control and security of your own data back into your hands.</p>",
-            "categories": [
-                "productivity"
-            ],
-            "description": "A file sharing server that puts the control and security of your own data back into your hands.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://nextcloud.com/",
-            "location": "/__w/truenas-charts/truenas-charts/charts/nextcloud",
-            "latest_version": "1.6.25",
-            "latest_app_version": "26.0.1",
-            "latest_human_version": "26.0.1_1.6.25",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "nextcloud",
-            "recommended": false,
-            "title": "Nextcloud",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg"
-        },
-        "wg-easy": {
-            "app_readme": "<h1>WG-Easy</h1>\n<p><a href=\"https://github.com/WeeJeWel/wg-easy\">WG-Easy (WireGuard Easy)</a> is the easiest way to install &amp; manage WireGuard!</p>",
-            "categories": [
-                "wireguard",
-                "network",
-                "vpn"
-            ],
-            "description": "WG-Easy is the easiest way to install & manage WireGuard!",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://github.com/WeeJeWel/wg-easy",
-            "location": "/__w/truenas-charts/truenas-charts/charts/wg-easy",
-            "latest_version": "1.0.5",
-            "latest_app_version": "7",
-            "latest_human_version": "7_1.0.5",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "wg-easy",
-            "recommended": false,
-            "title": "WG Easy",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://raw.githubusercontent.com/WeeJeWel/wg-easy/master/src/www/img/logo.png"
-        },
-        "elastic-search": {
-            "app_readme": "<h1>Elastic Search</h1>\n<blockquote>\n<p>During the installation process, a container will be launched with <strong>root</strong> privileges. This is required\nin order to apply the correct permissions to the <code>Elastic Search</code> data directory. Afterward, the <code>Elastic Search</code> container\nwill run as a <strong>non</strong>-root user (default <code>568</code>).</p>\n</blockquote>\n<p>If you want to apply additional configuration you can by using additional environment variables.</p>\n<p>See the <a href=\"https://www.elastic.co/guide/en/elasticsearch/reference/master/docker.html#docker-configuration-methods\">Elastic Search documentation</a>\nfor more information.</p>",
-            "categories": [
-                "search",
-                "elastic"
-            ],
-            "description": "Elasticsearch is the distributed, RESTful search and analytics engine at the heart of the Elastic Stack.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://www.elastic.co",
-            "location": "/__w/truenas-charts/truenas-charts/charts/elastic-search",
-            "latest_version": "1.0.5",
-            "latest_app_version": "8.7.1",
-            "latest_human_version": "8.7.1_1.0.5",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "elastic-search",
-            "recommended": false,
-            "title": "Elastic Search",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt280217a63b82a734/6202d3378b1f312528798412/elastic-logo.svg"
+            "icon_url": "https://play-lh.googleusercontent.com/KIy_dqUdZqcsTq4GDstHrHwLRvu60gT3v0p41gw792BC6OxamNhUw2eIy0-LI05qNEA=w240-h480"
         },
         "collabora": {
             "app_readme": "<h1>Collabora Online Development Edition</h1>\n<p>An awesome, Online Office suite image suitable for home use.\nWith the Collabora Online Development Edition (CODE) Docker Image you can host\nyour own online Office Suite at home! This Docker image is aimed at home users\nand contains the latest and greatest developments. Simply integrate it in your\npreferred File Sync and Share (FSS), to easily get your own online Office \nSuite up and running!</p>",
@@ -272,24 +57,45 @@
             "tags": [],
             "icon_url": "https://avatars.githubusercontent.com/u/22418908?s=200&v=4"
         },
-        "syncthing": {
-            "app_readme": "<h1>Syncthing</h1>\n<p><a href=\"https://syncthing.net/\">syncthing</a> is a continuous file synchronization program. It synchronizes files between two or\nmore computers in real time, safely protected from prying eyes.</p>\n<blockquote>\n<p><strong>WARNING</strong> Do check out https://docs.syncthing.net/users/faq.html#what-things-are-synced to see what is synced.</p>\n</blockquote>",
+        "minio": {
+            "app_readme": "<p><a href=\"https://min.io\">MinIO</a> is a High Performance Object Storage released under Apache License v2.0. It is API compatible with Amazon S3 cloud storage service. Use MinIO to build high performance infrastructure for machine learning, analytics and application data workloads.</p>\n<p><strong>NOTE</strong>\n- On installation, minIO data directory's ownership will be updated to minio:minio.\n- For existing installations that are exhibiting the upgrade to &gt;=1.5.0, the minIO data directory's ownership will be migrated to minio:minio.</p>",
             "categories": [
-                "backup",
-                "storage"
+                "storage",
+                "S3"
             ],
-            "description": "Syncthing is a continuous file synchronization program.",
+            "description": "High Performance, Kubernetes Native Object Storage",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://syncthing.net/",
-            "location": "/__w/truenas-charts/truenas-charts/charts/syncthing",
-            "latest_version": "1.0.25",
-            "latest_app_version": "1.23.4",
-            "latest_human_version": "1.23.4_1.0.25",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "syncthing",
+            "home": "https://min.io",
+            "location": "/__w/truenas-charts/truenas-charts/charts/minio",
+            "latest_version": "1.7.15",
+            "latest_app_version": "2023-03-13",
+            "latest_human_version": "2023-03-13_1.7.15",
+            "last_update": "2023-03-14 13:28:13",
+            "name": "minio",
             "recommended": false,
-            "title": "Syncthing",
+            "title": "Minio",
+            "maintainers": [],
+            "tags": [],
+            "icon_url": "https://min.io/resources/img/logo/MINIO_wordmark.png"
+        },
+        "home-assistant": {
+            "app_readme": "<p>home-assistant App for TrueNAS SCALE</p>",
+            "categories": [
+                "home-automation"
+            ],
+            "description": "Home Assistant App for TrueNAS SCALE",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/home-assistant/home-assistant",
+            "location": "/__w/truenas-charts/truenas-charts/charts/home-assistant",
+            "latest_version": "1.0.88",
+            "latest_app_version": "2023.5.2",
+            "latest_human_version": "2023.5.2_1.0.88",
+            "last_update": "2023-05-07 15:37:00",
+            "name": "home-assistant",
+            "recommended": false,
+            "title": "Home Assistant",
             "maintainers": [
                 {
                     "name": "truenas",
@@ -298,25 +104,81 @@
                 }
             ],
             "tags": [],
-            "icon_url": "https://play-lh.googleusercontent.com/KIy_dqUdZqcsTq4GDstHrHwLRvu60gT3v0p41gw792BC6OxamNhUw2eIy0-LI05qNEA=w240-h480"
+            "icon_url": "https://avatars.githubusercontent.com/u/13844975?s=200&v=4"
         },
-        "emby": {
-            "app_readme": "<h1>Emby Server</h1>\n<p>Emby Server is a personal media server with apps on just about every device</p>",
+        "diskoverdata": {
+            "app_readme": "<p>DiskOver App for TrueNAS SCALE</p>",
+            "categories": [
+                "storage",
+                "monitoring",
+                "management"
+            ],
+            "description": "Diskover is used to monitor size/volumes of distributed dataset.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/diskoverdata/diskover-community",
+            "location": "/__w/truenas-charts/truenas-charts/charts/diskoverdata",
+            "latest_version": "1.0.9",
+            "latest_app_version": "2.0.1",
+            "latest_human_version": "2.0.1_1.0.9",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "diskoverdata",
+            "recommended": false,
+            "title": "Diskover Data",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "http://www.diskoverdata.com/wp-content/uploads/2019/09/diskover.png"
+        },
+        "netdata": {
+            "app_readme": "<p><a href=\"https://www.netdata.cloud/\">Netdata</a> is a fast, easy monitoring and troubleshooting system.</p>",
+            "categories": [
+                "reporting"
+            ],
+            "description": "Real-time performance monitoring, done right!",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://www.netdata.cloud/",
+            "location": "/__w/truenas-charts/truenas-charts/charts/netdata",
+            "latest_version": "1.0.20",
+            "latest_app_version": "v1.38.1",
+            "latest_human_version": "v1.38.1_1.0.20",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "netdata",
+            "recommended": false,
+            "title": "Netdata",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://netdata.github.io/helmchart/logo.png"
+        },
+        "plex": {
+            "app_readme": "<h1>Plex</h1>\n<p>Plex chart is a chart designed to deploy plex in a TrueNAS SCALE kubernetes cluster.</p>",
             "categories": [
                 "entertainment"
             ],
-            "description": "Emby Server",
+            "description": "Plex Media Server",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://emby.media/",
-            "location": "/__w/truenas-charts/truenas-charts/charts/emby",
-            "latest_version": "1.0.22",
-            "latest_app_version": "4.7.11.0",
-            "latest_human_version": "4.7.11.0_1.0.22",
+            "home": "https://plex.tv/",
+            "location": "/__w/truenas-charts/truenas-charts/charts/plex",
+            "latest_version": "1.7.43",
+            "latest_app_version": "1.32.0.6973",
+            "latest_human_version": "1.32.0.6973_1.7.43",
             "last_update": "2023-05-03 13:56:14",
-            "name": "emby",
+            "name": "plex",
             "recommended": false,
-            "title": "Emby Server",
+            "title": "Plex",
             "maintainers": [
                 {
                     "name": "truenas",
@@ -325,7 +187,36 @@
                 }
             ],
             "tags": [],
-            "icon_url": "https://images-na.ssl-images-amazon.com/images/I/41NwssJC1iL.png"
+            "icon_url": "https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png"
+        },
+        "wg-easy": {
+            "app_readme": "<h1>WG-Easy</h1>\n<p><a href=\"https://github.com/WeeJeWel/wg-easy\">WG-Easy (WireGuard Easy)</a> is the easiest way to install &amp; manage WireGuard!</p>",
+            "categories": [
+                "wireguard",
+                "network",
+                "vpn"
+            ],
+            "description": "WG-Easy is the easiest way to install & manage WireGuard!",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/WeeJeWel/wg-easy",
+            "location": "/__w/truenas-charts/truenas-charts/charts/wg-easy",
+            "latest_version": "1.0.5",
+            "latest_app_version": "7",
+            "latest_human_version": "7_1.0.5",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "wg-easy",
+            "recommended": false,
+            "title": "WG Easy",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://raw.githubusercontent.com/WeeJeWel/wg-easy/master/src/www/img/logo.png"
         },
         "storj": {
             "app_readme": "<h1>storj</h1>\n<p><a href=\"https://www.storj.io/\">storj</a> share your extra storage and earn money</p>",
@@ -357,23 +248,23 @@
             "tags": [],
             "icon_url": "https://assets-global.website-files.com/602eda09fc78afc76e9706b6/60917835a05862243e7de9af_logo.svg"
         },
-        "netdata": {
-            "app_readme": "<p><a href=\"https://www.netdata.cloud/\">Netdata</a> is a fast, easy monitoring and troubleshooting system.</p>",
+        "nextcloud": {
+            "app_readme": "<h1>nextcloud</h1>\n<p><a href=\"https://nextcloud.com/\">nextcloud</a> is a file sharing server that puts the control and security of your own data back into your hands.</p>",
             "categories": [
-                "reporting"
+                "productivity"
             ],
-            "description": "Real-time performance monitoring, done right!",
+            "description": "A file sharing server that puts the control and security of your own data back into your hands.",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://www.netdata.cloud/",
-            "location": "/__w/truenas-charts/truenas-charts/charts/netdata",
-            "latest_version": "1.0.20",
-            "latest_app_version": "v1.38.1",
-            "latest_human_version": "v1.38.1_1.0.20",
+            "home": "https://nextcloud.com/",
+            "location": "/__w/truenas-charts/truenas-charts/charts/nextcloud",
+            "latest_version": "1.6.25",
+            "latest_app_version": "26.0.1",
+            "latest_human_version": "26.0.1_1.6.25",
             "last_update": "2023-05-03 13:56:14",
-            "name": "netdata",
+            "name": "nextcloud",
             "recommended": false,
-            "title": "Netdata",
+            "title": "Nextcloud",
             "maintainers": [
                 {
                     "name": "truenas",
@@ -382,7 +273,62 @@
                 }
             ],
             "tags": [],
-            "icon_url": "https://netdata.github.io/helmchart/logo.png"
+            "icon_url": "https://cdn.rawgit.com/docker-library/docs/defa5ffc7123177acd60ddef6e16bddf694cc35f/nextcloud/logo.svg"
+        },
+        "ix-chart": {
+            "app_readme": "<h1>iX-Chart</h1>\n<p>iX-chart is a chart designed to let user deploy a docker image in a TrueNAS SCALE kubernetes cluster.\nIt provides a mechanism to specify workload type, add external host interfaces in the pods, configure volumes and allocate host resources to the workload.</p>",
+            "categories": [
+                "generic"
+            ],
+            "description": "A Helm chart for deploying simple workloads Kubernetes",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://www.truenas.com/",
+            "location": "/__w/truenas-charts/truenas-charts/charts/ix-chart",
+            "latest_version": "2304.0.6",
+            "latest_app_version": "v1",
+            "latest_human_version": "v1_2304.0.6",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "ix-chart",
+            "recommended": false,
+            "title": "ix-chart",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": null
+        },
+        "elastic-search": {
+            "app_readme": "<h1>Elastic Search</h1>\n<blockquote>\n<p>During the installation process, a container will be launched with <strong>root</strong> privileges. This is required\nin order to apply the correct permissions to the <code>Elastic Search</code> data directory. Afterward, the <code>Elastic Search</code> container\nwill run as a <strong>non</strong>-root user (default <code>568</code>).</p>\n</blockquote>\n<p>If you want to apply additional configuration you can by using additional environment variables.</p>\n<p>See the <a href=\"https://www.elastic.co/guide/en/elasticsearch/reference/master/docker.html#docker-configuration-methods\">Elastic Search documentation</a>\nfor more information.</p>",
+            "categories": [
+                "search",
+                "elastic"
+            ],
+            "description": "Elasticsearch is the distributed, RESTful search and analytics engine at the heart of the Elastic Stack.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://www.elastic.co",
+            "location": "/__w/truenas-charts/truenas-charts/charts/elastic-search",
+            "latest_version": "1.0.5",
+            "latest_app_version": "8.7.1",
+            "latest_human_version": "8.7.1_1.0.5",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "elastic-search",
+            "recommended": false,
+            "title": "Elastic Search",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt280217a63b82a734/6202d3378b1f312528798412/elastic-logo.svg"
         },
         "prometheus": {
             "app_readme": "<h1>Prometheus</h1>\n<p><a href=\"https://prometheus.io/\">Prometheus</a> - Monitoring system and time series database.</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>prometheus</code> directories.\nAfterward, the <code>prometheus</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).\nAlso an empty configuration file will be created.</p>\n</blockquote>\n<p>The configuration file is located at <code>/config/prometheus.yml</code> inside the container.\nData is stored at <code>/data</code> inside the container.</p>",
@@ -412,6 +358,33 @@
             "tags": [],
             "icon_url": "https://avatars.githubusercontent.com/u/3380462"
         },
+        "photoprism": {
+            "app_readme": "<h1>Photo Prism</h1>\n<p>PhotoPrism is a server-based application for browsing, organizing and sharing your personal photo collection.</p>",
+            "categories": [
+                "media"
+            ],
+            "description": "AI-powered app for browsing, organizing & sharing your photo collection.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://photoprism.app/",
+            "location": "/__w/truenas-charts/truenas-charts/charts/photoprism",
+            "latest_version": "1.0.18",
+            "latest_app_version": "221118",
+            "latest_human_version": "221118_1.0.18",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "photoprism",
+            "recommended": false,
+            "title": "PhotoPrism",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://photoprism.app/static/icons/logo.svg"
+        },
         "pihole": {
             "app_readme": "<h1>Pihole</h1>\n<p>DNS and Ad-filtering for your network.</p>",
             "categories": [
@@ -439,29 +412,56 @@
             ],
             "tags": [],
             "icon_url": "https://github.com/pi-hole/graphics/raw/master/Vortex/Vortex_Vertical_wordmark_lightmode.png?raw=true)"
+        },
+        "emby": {
+            "app_readme": "<h1>Emby Server</h1>\n<p>Emby Server is a personal media server with apps on just about every device</p>",
+            "categories": [
+                "entertainment"
+            ],
+            "description": "Emby Server",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://emby.media/",
+            "location": "/__w/truenas-charts/truenas-charts/charts/emby",
+            "latest_version": "1.0.22",
+            "latest_app_version": "4.7.11.0",
+            "latest_human_version": "4.7.11.0_1.0.22",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "emby",
+            "recommended": false,
+            "title": "Emby Server",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://images-na.ssl-images-amazon.com/images/I/41NwssJC1iL.png"
         }
     },
     "test": {},
-    "community": {
-        "qbittorrent": {
-            "app_readme": "<h1>qBittorrent</h1>\n<p>The <a href=\"https://www.qbittorrent.org/\">qBittorrent</a> project aims to provide an open-source software alternative to \u00b5Torrent.</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the qBittorrent directories.\nAfterward, the <code>qBittorrent</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).</p>\n</blockquote>",
+    "enterprise": {
+        "minio": {
+            "app_readme": "<h1>MinIO</h1>\n<p><a href=\"https://min.io\">MinIO</a> is a High Performance Object Storage released under Apache License v2.0.\nIt is API compatible with Amazon S3 cloud storage service. Use MinIO to build high performance infrastructure\nfor machine learning, analytics and application data workloads.</p>\n<blockquote>\n<p>During the installation process, a container will be launched with <strong>root</strong> privileges. This is required\nin order to apply the correct permissions to the MinIO data directory. Afterward, the <code>MinIO</code> container\nwill run as a <strong>non</strong>-root user (<code>568</code>).\nSame applies to the <code>postgres</code> container. This will run afterwards as a <strong>non</strong>-root user (<code>999</code>).\nOn each upgrade, a container will be launched with <strong>root</strong> privileges in order to apply the correct\npermissions to the <code>postgres</code> backups directory. Container that performs the backup will run as a <strong>non</strong>-root user (<code>999</code>) afterwards.\nKeep in mind the permissions on the backup directory will be changed to <code>999:999</code> on <strong>every</strong> update.\nBut will only be changed once for the <code>MinIO</code> and <code>postgres</code> data directories.</p>\n</blockquote>\n<p>When Multi Mode is enabled and entries contain <code>://</code> (url) will enable Host Networking. Regardless of the selection in the <code>Networking</code> section.</p>",
             "categories": [
-                "media",
-                "torrent",
-                "download"
+                "storage",
+                "object-storage",
+                "S3"
             ],
-            "description": "The qBittorrent project aims to provide an open-source software alternative to \u00b5Torrent.",
+            "description": "High Performance, Kubernetes Native Object Storage",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://www.qbittorrent.org/",
-            "location": "/__w/truenas-charts/truenas-charts/community/qbittorrent",
+            "home": "https://min.io",
+            "location": "/__w/truenas-charts/truenas-charts/enterprise/minio",
             "latest_version": "1.0.7",
-            "latest_app_version": "4.5.2",
-            "latest_human_version": "4.5.2_1.0.7",
+            "latest_app_version": "2023-03-24",
+            "latest_human_version": "2023-03-24_1.0.7",
             "last_update": "2023-05-03 13:56:14",
-            "name": "qbittorrent",
+            "name": "minio",
             "recommended": false,
-            "title": "qBittorrent",
+            "title": "MinIO",
             "maintainers": [
                 {
                     "name": "truenas",
@@ -470,26 +470,56 @@
                 }
             ],
             "tags": [],
-            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Qbittorrent_logo.png"
-        },
-        "chia": {
-            "app_readme": "<h1>Chia</h1>\n<p>This container runs as <code>root</code> user.</p>\n<p>When a port is set to &lt; 9000. Host Networking is enabled automatically.</p>\n<blockquote>\n<p>Also NodePort services turn to ClusterIP services, to avoid attempts to bind ports twice.</p>\n</blockquote>\n<p>Key file is stored in <code>/plots/keyfile</code> and is generated automatically, <strong>only</strong> if the file does not exist.\nIf you want to use your own <code>keyfile</code>, you can create a file called <code>keyfile</code> in the <code>/plots</code> directory and it will be used instead.</p>\n<blockquote>\n<p>When set on <code>harvester</code> mode <code>keys</code> variable is set to <code>none</code> and no generation is performed.</p>\n</blockquote>",
+            "icon_url": "https://min.io/resources/img/logo/MINIO_wordmark.png"
+        }
+    },
+    "begotten": {
+        "rocket-chat": {
+            "app_readme": "<h1>rocket.chat</h1>\n<p><a href=\"https://www.rocket.chat/\">rocket.chat</a> Secure and compliant collaboration platform. Bring together messages, projects, and tasks into one place and watch your team\u2019s productivity rise to new heights.</p>",
             "categories": [
-                "blockchain",
-                "chia"
+                "productivity"
             ],
-            "description": "Chia is a modern cryptocurrency built from scratch, designed to be efficient, decentralized, and secure.",
+            "description": "Prepare to take off with the ultimate chat platform, experience the next level of team communications",
             "healthy": true,
             "healthy_error": null,
-            "home": "https://www.chia.net/",
-            "location": "/__w/truenas-charts/truenas-charts/community/chia",
-            "latest_version": "1.0.7",
-            "latest_app_version": "1.8.0",
-            "latest_human_version": "1.8.0_1.0.7",
-            "last_update": "2023-05-04 11:22:55",
-            "name": "chia",
+            "home": "https://rocket.chat/",
+            "location": "/__w/truenas-charts/truenas-charts/begotten/rocket-chat",
+            "latest_version": "6.1.5",
+            "latest_app_version": "6.1.5",
+            "latest_human_version": "6.1.5_6.1.5",
+            "last_update": "2023-05-10 15:07:33",
+            "name": "rocket-chat",
             "recommended": false,
-            "title": "Chia",
+            "title": "Rocket.Chat",
+            "maintainers": [
+                {
+                    "email": "cloud@rocket.chat",
+                    "name": "RocketChat"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://raw.githubusercontent.com/RocketChat/Rocket.Chat.Artwork/master/Logos/icon.svg"
+        }
+    },
+    "community": {
+        "vaultwarden": {
+            "app_readme": "<h1>Vaultwarden</h1>\n<p><a href=\"https://github.com/dani-garcia/vaultwarden\">Vaultwarden</a> Alternative implementation of the <code>Bitwarden</code> server API written in Rust and compatible with upstream Bitwarden clients</p>\n<blockquote>\n<p>During the installation process, a container will be launched with <strong>root</strong> privileges. This is required\nin order to apply the correct permissions to the <code>Vaultwarden</code> data directory. Afterward, the <code>Vaultwarden</code> container\nwill run as a <strong>non</strong>-root user (default <code>568</code>).\nSame applies to the <code>postgres</code> container. This will run afterwards as a <strong>non</strong>-root user (<code>999</code>).\nOn each upgrade, a container will be launched with <strong>root</strong> privileges in order to apply the correct\npermissions to the <code>postgres</code> <strong>backups</strong> directory. Container that performs the backup will run as a <strong>non</strong>-root user (<code>999</code>) afterwards.\nKeep in mind the permissions on the backup directory will be changed to <code>999:999</code> on <strong>every</strong> update.\nBut will only be changed once for the <code>Vaultwarden</code> and <code>postgres</code> data directories.</p>\n</blockquote>\n<p>While the option to use <code>Rocket</code> for TLS is there, it is not\n<a href=\"https://github.com/dani-garcia/vaultwarden/wiki/Enabling-HTTPS#via-rocket\">recommended</a>.\nInstead, use a reverse proxy to handle TLS termination.</p>\n<p>Using <code>HTTPS</code> is <strong>required</strong> for the most of the features to work (correctly).</p>",
+            "categories": [
+                "password",
+                "manager"
+            ],
+            "description": "Alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/dani-garcia/vaultwarden",
+            "location": "/__w/truenas-charts/truenas-charts/community/vaultwarden",
+            "latest_version": "1.0.6",
+            "latest_app_version": "1.28.1",
+            "latest_human_version": "1.28.1_1.0.6",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "vaultwarden",
+            "recommended": false,
+            "title": "Vaultwarden",
             "maintainers": [
                 {
                     "name": "truenas",
@@ -498,7 +528,8 @@
                 }
             ],
             "tags": [],
-            "icon_url": "https://www.chia.net/wp-content/uploads/2022/09/chia-logo.svg"
+            "icon_url": null,
+            "icon": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/main/src/static/images/vaultwarden-icon.png"
         },
         "terraria": {
             "app_readme": "<h1>Terraria</h1>\n<p><a href=\"https://terraria.org/\">Terraria</a> is a land of adventure! A land of mystery! A land that's yours to shape, defend, and enjoy.</p>\n<p>This applies only for the <code>TShock</code> image.\nOn the first run, you have to check the logs to get the server token. You will find something like this:</p>\n<p><code>text\nLogin before join enabled. Users may be prompted for an account specific password instead of a server password on connect.\nLogin using UUID enabled. Users automatically login via UUID.\nA malicious server can easily steal a user's UUID. You may consider turning this option off if you run a public server.\nTShock Notice: setup-code.txt is still present, and the code located in that file will be used.\nTo setup the server, join the game and type /setup 424041\nThis token will display until disabled by verification. (/setup)</code></p>\n<p>Join the server and run <code>/setup &lt;token&gt;</code></p>",
@@ -528,6 +559,314 @@
             "tags": [],
             "icon_url": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a4/NewPromoLogo.png/revision/latest"
         },
+        "minecraft": {
+            "app_readme": "<h1>Minecraft</h1>\n<p><a href=\"https://www.minecraft.net/en-us\">Minecraft</a> is a sandbox game</p>\n<blockquote>\n<p>Application requires to run as root.</p>\n</blockquote>\n<p>Depending on the <code>Type</code> of server selected, you might need to add additional\ncustom environment variables to the application.</p>\n<p>More info can be found <a href=\"https://itzg.github.io/docker-minecraft-docs/java/server-types/bukkit-spigot/\">here</a>\nSelect the type on the sidebar.</p>\n<p>Note that some values are only applicable during the world generation.\nMore info can be found <a href=\"https://itzg.github.io/docker-minecraft-docs/\">here</a></p>",
+            "categories": [
+                "minecraft"
+            ],
+            "description": "Minecraft is a sandbox game",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://www.minecraft.net/en-us",
+            "location": "/__w/truenas-charts/truenas-charts/community/minecraft",
+            "latest_version": "1.0.0",
+            "latest_app_version": "2023.3.0",
+            "latest_human_version": "2023.3.0_1.0.0",
+            "last_update": "2023-05-03 11:56:13",
+            "name": "minecraft",
+            "recommended": false,
+            "title": "Minecraft",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://www.minecraft.net/content/dam/games/minecraft/logos/logo-minecraft.svg"
+        },
+        "gitea": {
+            "app_readme": "<h1>Gitea</h1>\n<p><a href=\"https://gitea.io/en-us\">Gitea</a> - Git with a cup of tea</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>gitea</code> directories.\nAfterward, the <code>gitea</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).\nSame applies to the <code>postgres</code> container. This will run afterwards as a <strong>non</strong>-root user (<code>999</code>).\nOn each upgrade, a container will be launched with <strong>root</strong> privileges in order to apply the correct\npermissions to the <code>postgres</code> <strong>backups</strong> directory. Container that performs the backup will run as a <strong>non</strong>-root user (<code>999</code>) afterwards.\nKeep in mind the permissions on the backup directory will be changed to <code>999:999</code> on <strong>every</strong> update.\nBut will only be changed once for the <code>gitea</code> and <code>postgres</code> data directories.</p>\n</blockquote>\n<p>On initial startup a setup wizard will be launched with settings for <code>database</code>, <code>ports</code>, <code>path</code>, and <code>domain</code> prefilled.\nKeep them as they are, fill anything you want in the optional settings section and click on <code>Install Gitea</code>.</p>",
+            "categories": [
+                "git",
+                "gitea"
+            ],
+            "description": "Gitea - Git with a cup of tea",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://gitea.io/en-us",
+            "location": "/__w/truenas-charts/truenas-charts/community/gitea",
+            "latest_version": "1.0.3",
+            "latest_app_version": "1.19.0",
+            "latest_human_version": "1.19.0_1.0.3",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "gitea",
+            "recommended": false,
+            "title": "Gitea",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://gitea.com/assets/img/logo.svg"
+        },
+        "qbittorrent": {
+            "app_readme": "<h1>qBittorrent</h1>\n<p>The <a href=\"https://www.qbittorrent.org/\">qBittorrent</a> project aims to provide an open-source software alternative to \u00b5Torrent.</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the qBittorrent directories.\nAfterward, the <code>qBittorrent</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).</p>\n</blockquote>",
+            "categories": [
+                "media",
+                "torrent",
+                "download"
+            ],
+            "description": "The qBittorrent project aims to provide an open-source software alternative to \u00b5Torrent.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://www.qbittorrent.org/",
+            "location": "/__w/truenas-charts/truenas-charts/community/qbittorrent",
+            "latest_version": "1.0.7",
+            "latest_app_version": "4.5.2",
+            "latest_human_version": "4.5.2_1.0.7",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "qbittorrent",
+            "recommended": false,
+            "title": "qBittorrent",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Qbittorrent_logo.png"
+        },
+        "adguard-home": {
+            "app_readme": "<h1>AdGuard Home</h1>\n<p>During the setup wizard, AdGuard Home presents an option to select on which port the web interface will be available.\n(Defaults to 80. Which is a privileged port and also usually the TrueNAS SCALE UI uses that port)\nBecause of that, App will force the webUI to listen to port 30000 (or the port selected by user in the TrueNAS SCALE UI).</p>\n<p>If you select a different port in the wizard, the Dashboard will not work initially but\nafter a couple of minutes container will automatically restart and the Dashboard will\nbe available on the port you selected on the TrueNAS SCALE UI.</p>\n<blockquote>\n<ul>\n<li>AdGuard runs as <code>root</code> user.</li>\n<li>AdGuard runs with host networking enabled.</li>\n</ul>\n</blockquote>",
+            "categories": [
+                "dns",
+                "adblock"
+            ],
+            "description": "Free and open source, powerful network-wide ads & trackers blocking DNS server.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/AdguardTeam/AdGuardHome",
+            "location": "/__w/truenas-charts/truenas-charts/community/adguard-home",
+            "latest_version": "1.0.2",
+            "latest_app_version": "v0.107.26",
+            "latest_human_version": "v0.107.26_1.0.2",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "adguard-home",
+            "recommended": false,
+            "title": "AdGuard Home",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://github.com/AdguardTeam/AdGuardHome/raw/master/doc/adguard_home_darkmode.svg"
+        },
+        "tailscale": {
+            "app_readme": "<h1>Tailscale</h1>\n<p><a href=\"https://tailscale.com\">Tailscale</a> Secure remote access to shared resources</p>\n<ul>\n<li>When <code>Userspace</code> is <strong>disabled</strong>, <code>Tailscale</code> will run as root, with <code>/dev/net/tun</code> device mounted from the host.</li>\n<li>When <code>Userspace</code> is <strong>enabled</strong>, <code>Tailscale</code> will run as a non-root user.</li>\n</ul>",
+            "categories": [
+                "vpn",
+                "tailscale"
+            ],
+            "description": "Secure remote access to shared resources",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://tailscale.com/",
+            "location": "/__w/truenas-charts/truenas-charts/community/tailscale",
+            "latest_version": "1.0.2",
+            "latest_app_version": "v1.38.4",
+            "latest_human_version": "v1.38.4_1.0.2",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "tailscale",
+            "recommended": false,
+            "title": "Tailscale",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://avatars.githubusercontent.com/u/48932923"
+        },
+        "jellyfin": {
+            "app_readme": "<h1>Jellyfin</h1>\n<p><a href=\"https://jellyfin.org/\">Jellyfin</a> is a Free Software Media System that puts you in control of managing and streaming your media.</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>Jellyfin</code> directories.\nAfterward, the <code>Jellyfin</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).\nAll mounted storage(s) will be <code>chown</code>ed only if the parent directory does not match the configured user.</p>\n</blockquote>",
+            "categories": [
+                "media",
+                "streaming"
+            ],
+            "description": "Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://jellyfin.org/",
+            "location": "/__w/truenas-charts/truenas-charts/community/jellyfin",
+            "latest_version": "1.0.0",
+            "latest_app_version": "10.8.10",
+            "latest_human_version": "10.8.10_1.0.0",
+            "last_update": "2023-05-02 15:25:00",
+            "name": "jellyfin",
+            "recommended": false,
+            "title": "Jellyfin",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://jellyfin.org/images/logo.svg"
+        },
+        "mumble": {
+            "app_readme": "<h1>Mumble</h1>\n<p><a href=\"https://www.mumble.info/\">Mumble</a> is an Open Source, Low Latency, High Quality Voice Chat Home Downloads Documentation Blog Contribute About</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>Mumble</code> directories.\nAfterward, the <code>Mumble</code> container will run as a <strong>non</strong>-root user (<code>1000</code>, Cannot change).</p>\n</blockquote>\n<p>You can change the server configuration by adding additional environment variables.\nPrefix the configuration variable with <code>MUMBLE_CONFIG_</code> and it will be added to the configuration file.\nView the <a href=\"https://wiki.mumble.info/wiki/Murmur.ini\">Mumble Configuration File</a> for more information.</p>\n<p>For example you can set <code>autobanAttempts</code> like this:</p>\n<ul>\n<li>Name: <code>MUMBLE_CONFIG_autobanAttempts</code></li>\n<li>Value: <code>5</code></li>\n</ul>",
+            "categories": [
+                "voice"
+            ],
+            "description": "Mumble is a free, open source, low latency, high quality voice chat application.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://www.mumble.info/",
+            "location": "/__w/truenas-charts/truenas-charts/community/mumble",
+            "latest_version": "1.0.0",
+            "latest_app_version": "v1.4.230",
+            "latest_human_version": "v1.4.230_1.0.0",
+            "last_update": "2023-05-05 19:22:12",
+            "name": "mumble",
+            "recommended": false,
+            "title": "Mumble",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://github.com/mumble-voip/mumble/blob/master/icons/mumble.svg"
+        },
+        "zerotier": {
+            "app_readme": "<h1>Zerotier</h1>\n<p><a href=\"https://www.zerotier.com\">Zerotier</a> Securely connect any device, anywhere.</p>",
+            "categories": [
+                "vpn",
+                "zerotier"
+            ],
+            "description": "Securely connect any device, anywhere.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://www.zerotier.com",
+            "location": "/__w/truenas-charts/truenas-charts/community/zerotier",
+            "latest_version": "1.0.0",
+            "latest_app_version": "1.10.6",
+            "latest_human_version": "1.10.6_1.0.0",
+            "last_update": "2023-05-07 15:37:49",
+            "name": "zerotier",
+            "recommended": false,
+            "title": "Zerotier",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://avatars.githubusercontent.com/u/4173285"
+        },
+        "ipfs": {
+            "app_readme": "<h1>IPFS</h1>\n<p><a href=\"https://ipfs.tech\">Interplanetary Filesystem</a> - the Web3 standard for content-addressing, interoperable with HTTP</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the ipfs directories.\nAfterward, the <code>ipfs</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).</p>\n</blockquote>",
+            "categories": [
+                "storage",
+                "ipfs",
+                "kubo"
+            ],
+            "description": "Interplanetary Filesystem - the Web3 standard for content-addressing, interoperable with HTTP",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://ipfs.tech/",
+            "location": "/__w/truenas-charts/truenas-charts/community/ipfs",
+            "latest_version": "1.0.7",
+            "latest_app_version": "v0.19.2",
+            "latest_human_version": "v0.19.2_1.0.7",
+            "last_update": "2023-05-04 11:22:55",
+            "name": "ipfs",
+            "recommended": false,
+            "title": "IPFS",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://avatars.githubusercontent.com/u/10536621"
+        },
+        "chia": {
+            "app_readme": "<h1>Chia</h1>\n<p>This container runs as <code>root</code> user.</p>\n<p>When a port is set to &lt; 9000. Host Networking is enabled automatically.</p>\n<blockquote>\n<p>Also NodePort services turn to ClusterIP services, to avoid attempts to bind ports twice.</p>\n</blockquote>\n<p>Key file is stored in <code>/plots/keyfile</code> and is generated automatically, <strong>only</strong> if the file does not exist.\nIf you want to use your own <code>keyfile</code>, you can create a file called <code>keyfile</code> in the <code>/plots</code> directory and it will be used instead.</p>\n<blockquote>\n<p>When set on <code>harvester</code> mode <code>keys</code> variable is set to <code>none</code> and no generation is performed.</p>\n</blockquote>",
+            "categories": [
+                "blockchain",
+                "chia"
+            ],
+            "description": "Chia is a modern cryptocurrency built from scratch, designed to be efficient, decentralized, and secure.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://www.chia.net/",
+            "location": "/__w/truenas-charts/truenas-charts/community/chia",
+            "latest_version": "1.0.7",
+            "latest_app_version": "1.8.0",
+            "latest_human_version": "1.8.0_1.0.7",
+            "last_update": "2023-05-04 11:22:55",
+            "name": "chia",
+            "recommended": false,
+            "title": "Chia",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://www.chia.net/wp-content/uploads/2022/09/chia-logo.svg"
+        },
+        "sonarr": {
+            "app_readme": "<h1>Sonarr</h1>\n<p><a href=\"https://github.com/Sonarr/Sonarr\">Sonarr</a> is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them.</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>Sonarr</code> directories.\nAfterward, the <code>Sonarr</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).\nAll mounted storage(s) will be <code>chown</code>ed only if the parent directory does not match the configured user.</p>\n</blockquote>",
+            "categories": [
+                "media",
+                "series"
+            ],
+            "description": "Sonarr is a PVR for Usenet and BitTorrent users.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/Sonarr/Sonarr",
+            "location": "/__w/truenas-charts/truenas-charts/community/sonarr",
+            "latest_version": "1.0.5",
+            "latest_app_version": "3.0.10.1567",
+            "latest_human_version": "3.0.10.1567_1.0.5",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "sonarr",
+            "recommended": false,
+            "title": "Sonarr",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://raw.githubusercontent.com/Sonarr/Sonarr/develop/Logo/256.png"
+        },
         "radarr": {
             "app_readme": "<h1>Radarr</h1>\n<p><a href=\"https://github.com/Radarr/Radarr\">Radarr</a> is a movie collection manager for Usenet and BitTorrent users.</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>Radarr</code> directories.\nAfterward, the <code>Radarr</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).\nAll mounted storage(s) will be <code>chown</code>ed only if the parent directory does not match the configured user.</p>\n</blockquote>",
             "categories": [
@@ -555,6 +894,35 @@
             ],
             "tags": [],
             "icon_url": "https://raw.githubusercontent.com/Radarr/Radarr/develop/Logo/256.png"
+        },
+        "tdarr": {
+            "app_readme": "<h1>Tdarr</h1>\n<p><a href=\"https://home.tdarr.io/\">Tdarr</a> is a Distributed Transcoding System</p>\n<ul>\n<li>App runs as <code>root</code> user</li>\n</ul>",
+            "categories": [
+                "media",
+                "encode",
+                "transcode"
+            ],
+            "description": "Tdarr is a Distributed Transcoding System",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://home.tdarr.io/",
+            "location": "/__w/truenas-charts/truenas-charts/community/tdarr",
+            "latest_version": "1.0.2",
+            "latest_app_version": "2.00.20.1",
+            "latest_human_version": "2.00.20.1_1.0.2",
+            "last_update": "2023-05-03 13:56:14",
+            "name": "tdarr",
+            "recommended": false,
+            "title": "Tdarr",
+            "maintainers": [
+                {
+                    "name": "truenas",
+                    "url": "https://www.truenas.com/",
+                    "email": "dev@ixsystems.com"
+                }
+            ],
+            "tags": [],
+            "icon_url": "https://home.tdarr.io/static/media/logo3-min.246d6df4.png"
         },
         "nginx-proxy-manager": {
             "app_readme": "<h1>Nginx Proxy Manager</h1>\n<p><a href=\"https://nginxproxymanager.com\">Nginx Proxy Manager</a> Expose your services easily and securely</p>\n<blockquote>\n<p>Application requires to run as root. This is a limitation of the application.</p>\n</blockquote>",
@@ -611,374 +979,6 @@
             ],
             "tags": [],
             "icon_url": "https://raw.githubusercontent.com/Lidarr/Lidarr/develop/Logo/256.png"
-        },
-        "gitea": {
-            "app_readme": "<h1>Gitea</h1>\n<p><a href=\"https://gitea.io/en-us\">Gitea</a> - Git with a cup of tea</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>gitea</code> directories.\nAfterward, the <code>gitea</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).\nSame applies to the <code>postgres</code> container. This will run afterwards as a <strong>non</strong>-root user (<code>999</code>).\nOn each upgrade, a container will be launched with <strong>root</strong> privileges in order to apply the correct\npermissions to the <code>postgres</code> <strong>backups</strong> directory. Container that performs the backup will run as a <strong>non</strong>-root user (<code>999</code>) afterwards.\nKeep in mind the permissions on the backup directory will be changed to <code>999:999</code> on <strong>every</strong> update.\nBut will only be changed once for the <code>gitea</code> and <code>postgres</code> data directories.</p>\n</blockquote>\n<p>On initial startup a setup wizard will be launched with settings for <code>database</code>, <code>ports</code>, <code>path</code>, and <code>domain</code> prefilled.\nKeep them as they are, fill anything you want in the optional settings section and click on <code>Install Gitea</code>.</p>",
-            "categories": [
-                "git",
-                "gitea"
-            ],
-            "description": "Gitea - Git with a cup of tea",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://gitea.io/en-us",
-            "location": "/__w/truenas-charts/truenas-charts/community/gitea",
-            "latest_version": "1.0.3",
-            "latest_app_version": "1.19.0",
-            "latest_human_version": "1.19.0_1.0.3",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "gitea",
-            "recommended": false,
-            "title": "Gitea",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://gitea.com/assets/img/logo.svg"
-        },
-        "minecraft": {
-            "app_readme": "<h1>Minecraft</h1>\n<p><a href=\"https://www.minecraft.net/en-us\">Minecraft</a> is a sandbox game</p>\n<blockquote>\n<p>Application requires to run as root.</p>\n</blockquote>\n<p>Depending on the <code>Type</code> of server selected, you might need to add additional\ncustom environment variables to the application.</p>\n<p>More info can be found <a href=\"https://itzg.github.io/docker-minecraft-docs/java/server-types/bukkit-spigot/\">here</a>\nSelect the type on the sidebar.</p>\n<p>Note that some values are only applicable during the world generation.\nMore info can be found <a href=\"https://itzg.github.io/docker-minecraft-docs/\">here</a></p>",
-            "categories": [
-                "minecraft"
-            ],
-            "description": "Minecraft is a sandbox game",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://www.minecraft.net/en-us",
-            "location": "/__w/truenas-charts/truenas-charts/community/minecraft",
-            "latest_version": "1.0.0",
-            "latest_app_version": "2023.3.0",
-            "latest_human_version": "2023.3.0_1.0.0",
-            "last_update": "2023-05-03 11:56:13",
-            "name": "minecraft",
-            "recommended": false,
-            "title": "Minecraft",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://www.minecraft.net/content/dam/games/minecraft/logos/logo-minecraft.svg"
-        },
-        "tdarr": {
-            "app_readme": "<h1>Tdarr</h1>\n<p><a href=\"https://home.tdarr.io/\">Tdarr</a> is a Distributed Transcoding System</p>\n<ul>\n<li>App runs as <code>root</code> user</li>\n</ul>",
-            "categories": [
-                "media",
-                "encode",
-                "transcode"
-            ],
-            "description": "Tdarr is a Distributed Transcoding System",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://home.tdarr.io/",
-            "location": "/__w/truenas-charts/truenas-charts/community/tdarr",
-            "latest_version": "1.0.2",
-            "latest_app_version": "2.00.20.1",
-            "latest_human_version": "2.00.20.1_1.0.2",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "tdarr",
-            "recommended": false,
-            "title": "Tdarr",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://home.tdarr.io/static/media/logo3-min.246d6df4.png"
-        },
-        "vaultwarden": {
-            "app_readme": "<h1>Vaultwarden</h1>\n<p><a href=\"https://github.com/dani-garcia/vaultwarden\">Vaultwarden</a> Alternative implementation of the <code>Bitwarden</code> server API written in Rust and compatible with upstream Bitwarden clients</p>\n<blockquote>\n<p>During the installation process, a container will be launched with <strong>root</strong> privileges. This is required\nin order to apply the correct permissions to the <code>Vaultwarden</code> data directory. Afterward, the <code>Vaultwarden</code> container\nwill run as a <strong>non</strong>-root user (default <code>568</code>).\nSame applies to the <code>postgres</code> container. This will run afterwards as a <strong>non</strong>-root user (<code>999</code>).\nOn each upgrade, a container will be launched with <strong>root</strong> privileges in order to apply the correct\npermissions to the <code>postgres</code> <strong>backups</strong> directory. Container that performs the backup will run as a <strong>non</strong>-root user (<code>999</code>) afterwards.\nKeep in mind the permissions on the backup directory will be changed to <code>999:999</code> on <strong>every</strong> update.\nBut will only be changed once for the <code>Vaultwarden</code> and <code>postgres</code> data directories.</p>\n</blockquote>\n<p>While the option to use <code>Rocket</code> for TLS is there, it is not\n<a href=\"https://github.com/dani-garcia/vaultwarden/wiki/Enabling-HTTPS#via-rocket\">recommended</a>.\nInstead, use a reverse proxy to handle TLS termination.</p>\n<p>Using <code>HTTPS</code> is <strong>required</strong> for the most of the features to work (correctly).</p>",
-            "categories": [
-                "password",
-                "manager"
-            ],
-            "description": "Alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://github.com/dani-garcia/vaultwarden",
-            "location": "/__w/truenas-charts/truenas-charts/community/vaultwarden",
-            "latest_version": "1.0.6",
-            "latest_app_version": "1.28.1",
-            "latest_human_version": "1.28.1_1.0.6",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "vaultwarden",
-            "recommended": false,
-            "title": "Vaultwarden",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": null,
-            "icon": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/main/src/static/images/vaultwarden-icon.png"
-        },
-        "tailscale": {
-            "app_readme": "<h1>Tailscale</h1>\n<p><a href=\"https://tailscale.com\">Tailscale</a> Secure remote access to shared resources</p>\n<ul>\n<li>When <code>Userspace</code> is <strong>disabled</strong>, <code>Tailscale</code> will run as root, with <code>/dev/net/tun</code> device mounted from the host.</li>\n<li>When <code>Userspace</code> is <strong>enabled</strong>, <code>Tailscale</code> will run as a non-root user.</li>\n</ul>",
-            "categories": [
-                "vpn",
-                "tailscale"
-            ],
-            "description": "Secure remote access to shared resources",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://tailscale.com/",
-            "location": "/__w/truenas-charts/truenas-charts/community/tailscale",
-            "latest_version": "1.0.2",
-            "latest_app_version": "v1.38.4",
-            "latest_human_version": "v1.38.4_1.0.2",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "tailscale",
-            "recommended": false,
-            "title": "Tailscale",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://avatars.githubusercontent.com/u/48932923"
-        },
-        "zerotier": {
-            "app_readme": "<h1>Zerotier</h1>\n<p><a href=\"https://www.zerotier.com\">Zerotier</a> Securely connect any device, anywhere.</p>",
-            "categories": [
-                "vpn",
-                "zerotier"
-            ],
-            "description": "Securely connect any device, anywhere.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://www.zerotier.com",
-            "location": "/__w/truenas-charts/truenas-charts/community/zerotier",
-            "latest_version": "1.0.0",
-            "latest_app_version": "1.10.6",
-            "latest_human_version": "1.10.6_1.0.0",
-            "last_update": "2023-05-07 15:37:49",
-            "name": "zerotier",
-            "recommended": false,
-            "title": "Zerotier",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://avatars.githubusercontent.com/u/4173285"
-        },
-        "jellyfin": {
-            "app_readme": "<h1>Jellyfin</h1>\n<p><a href=\"https://jellyfin.org/\">Jellyfin</a> is a Free Software Media System that puts you in control of managing and streaming your media.</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>Jellyfin</code> directories.\nAfterward, the <code>Jellyfin</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).\nAll mounted storage(s) will be <code>chown</code>ed only if the parent directory does not match the configured user.</p>\n</blockquote>",
-            "categories": [
-                "media",
-                "streaming"
-            ],
-            "description": "Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://jellyfin.org/",
-            "location": "/__w/truenas-charts/truenas-charts/community/jellyfin",
-            "latest_version": "1.0.0",
-            "latest_app_version": "10.8.10",
-            "latest_human_version": "10.8.10_1.0.0",
-            "last_update": "2023-05-02 15:25:00",
-            "name": "jellyfin",
-            "recommended": false,
-            "title": "Jellyfin",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://jellyfin.org/images/logo.svg"
-        },
-        "sonarr": {
-            "app_readme": "<h1>Sonarr</h1>\n<p><a href=\"https://github.com/Sonarr/Sonarr\">Sonarr</a> is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them.</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>Sonarr</code> directories.\nAfterward, the <code>Sonarr</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).\nAll mounted storage(s) will be <code>chown</code>ed only if the parent directory does not match the configured user.</p>\n</blockquote>",
-            "categories": [
-                "media",
-                "series"
-            ],
-            "description": "Sonarr is a PVR for Usenet and BitTorrent users.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://github.com/Sonarr/Sonarr",
-            "location": "/__w/truenas-charts/truenas-charts/community/sonarr",
-            "latest_version": "1.0.5",
-            "latest_app_version": "3.0.10.1567",
-            "latest_human_version": "3.0.10.1567_1.0.5",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "sonarr",
-            "recommended": false,
-            "title": "Sonarr",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://raw.githubusercontent.com/Sonarr/Sonarr/develop/Logo/256.png"
-        },
-        "adguard-home": {
-            "app_readme": "<h1>AdGuard Home</h1>\n<p>During the setup wizard, AdGuard Home presents an option to select on which port the web interface will be available.\n(Defaults to 80. Which is a privileged port and also usually the TrueNAS SCALE UI uses that port)\nBecause of that, App will force the webUI to listen to port 30000 (or the port selected by user in the TrueNAS SCALE UI).</p>\n<p>If you select a different port in the wizard, the Dashboard will not work initially but\nafter a couple of minutes container will automatically restart and the Dashboard will\nbe available on the port you selected on the TrueNAS SCALE UI.</p>\n<blockquote>\n<ul>\n<li>AdGuard runs as <code>root</code> user.</li>\n<li>AdGuard runs with host networking enabled.</li>\n</ul>\n</blockquote>",
-            "categories": [
-                "dns",
-                "adblock"
-            ],
-            "description": "Free and open source, powerful network-wide ads & trackers blocking DNS server.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://github.com/AdguardTeam/AdGuardHome",
-            "location": "/__w/truenas-charts/truenas-charts/community/adguard-home",
-            "latest_version": "1.0.2",
-            "latest_app_version": "v0.107.26",
-            "latest_human_version": "v0.107.26_1.0.2",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "adguard-home",
-            "recommended": false,
-            "title": "AdGuard Home",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://github.com/AdguardTeam/AdGuardHome/raw/master/doc/adguard_home_darkmode.svg"
-        },
-        "mumble": {
-            "app_readme": "<h1>Mumble</h1>\n<p><a href=\"https://www.mumble.info/\">Mumble</a> is an Open Source, Low Latency, High Quality Voice Chat Home Downloads Documentation Blog Contribute About</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the <code>Mumble</code> directories.\nAfterward, the <code>Mumble</code> container will run as a <strong>non</strong>-root user (<code>1000</code>, Cannot change).</p>\n</blockquote>\n<p>You can change the server configuration by adding additional environment variables.\nPrefix the configuration variable with <code>MUMBLE_CONFIG_</code> and it will be added to the configuration file.\nView the <a href=\"https://wiki.mumble.info/wiki/Murmur.ini\">Mumble Configuration File</a> for more information.</p>\n<p>For example you can set <code>autobanAttempts</code> like this:</p>\n<ul>\n<li>Name: <code>MUMBLE_CONFIG_autobanAttempts</code></li>\n<li>Value: <code>5</code></li>\n</ul>",
-            "categories": [
-                "voice"
-            ],
-            "description": "Mumble is a free, open source, low latency, high quality voice chat application.",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://www.mumble.info/",
-            "location": "/__w/truenas-charts/truenas-charts/community/mumble",
-            "latest_version": "1.0.0",
-            "latest_app_version": "v1.4.230",
-            "latest_human_version": "v1.4.230_1.0.0",
-            "last_update": "2023-05-05 19:22:12",
-            "name": "mumble",
-            "recommended": false,
-            "title": "Mumble",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://github.com/mumble-voip/mumble/blob/master/icons/mumble.svg"
-        },
-        "ipfs": {
-            "app_readme": "<h1>IPFS</h1>\n<p><a href=\"https://ipfs.tech\">Interplanetary Filesystem</a> - the Web3 standard for content-addressing, interoperable with HTTP</p>\n<blockquote>\n<p>When application is installed, a container will be launched with <strong>root</strong> privileges.\nThis is required in order to apply the correct permissions to the ipfs directories.\nAfterward, the <code>ipfs</code> container will run as a <strong>non</strong>-root user (Default: <code>568</code>).</p>\n</blockquote>",
-            "categories": [
-                "storage",
-                "ipfs",
-                "kubo"
-            ],
-            "description": "Interplanetary Filesystem - the Web3 standard for content-addressing, interoperable with HTTP",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://ipfs.tech/",
-            "location": "/__w/truenas-charts/truenas-charts/community/ipfs",
-            "latest_version": "1.0.7",
-            "latest_app_version": "v0.19.2",
-            "latest_human_version": "v0.19.2_1.0.7",
-            "last_update": "2023-05-04 11:22:55",
-            "name": "ipfs",
-            "recommended": false,
-            "title": "IPFS",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://avatars.githubusercontent.com/u/10536621"
-        }
-    },
-    "begotten": {
-        "rocket-chat": {
-            "app_readme": "<h1>rocket.chat</h1>\n<p><a href=\"https://www.rocket.chat/\">rocket.chat</a> Secure and compliant collaboration platform. Bring together messages, projects, and tasks into one place and watch your team\u2019s productivity rise to new heights.</p>",
-            "categories": [
-                "productivity"
-            ],
-            "description": "Prepare to take off with the ultimate chat platform, experience the next level of team communications",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://rocket.chat/",
-            "location": "/__w/truenas-charts/truenas-charts/begotten/rocket-chat",
-            "latest_version": "6.1.5",
-            "latest_app_version": "6.1.5",
-            "latest_human_version": "6.1.5_6.1.5",
-            "last_update": "2023-05-10 12:20:43",
-            "name": "rocket-chat",
-            "recommended": false,
-            "title": "Rocket.Chat",
-            "maintainers": [
-                {
-                    "email": "cloud@rocket.chat",
-                    "name": "RocketChat"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://raw.githubusercontent.com/RocketChat/Rocket.Chat.Artwork/master/Logos/icon.svg"
-        }
-    },
-    "enterprise": {
-        "minio": {
-            "app_readme": "<h1>MinIO</h1>\n<p><a href=\"https://min.io\">MinIO</a> is a High Performance Object Storage released under Apache License v2.0.\nIt is API compatible with Amazon S3 cloud storage service. Use MinIO to build high performance infrastructure\nfor machine learning, analytics and application data workloads.</p>\n<blockquote>\n<p>During the installation process, a container will be launched with <strong>root</strong> privileges. This is required\nin order to apply the correct permissions to the MinIO data directory. Afterward, the <code>MinIO</code> container\nwill run as a <strong>non</strong>-root user (<code>568</code>).\nSame applies to the <code>postgres</code> container. This will run afterwards as a <strong>non</strong>-root user (<code>999</code>).\nOn each upgrade, a container will be launched with <strong>root</strong> privileges in order to apply the correct\npermissions to the <code>postgres</code> backups directory. Container that performs the backup will run as a <strong>non</strong>-root user (<code>999</code>) afterwards.\nKeep in mind the permissions on the backup directory will be changed to <code>999:999</code> on <strong>every</strong> update.\nBut will only be changed once for the <code>MinIO</code> and <code>postgres</code> data directories.</p>\n</blockquote>\n<p>When Multi Mode is enabled and entries contain <code>://</code> (url) will enable Host Networking. Regardless of the selection in the <code>Networking</code> section.</p>",
-            "categories": [
-                "storage",
-                "object-storage",
-                "S3"
-            ],
-            "description": "High Performance, Kubernetes Native Object Storage",
-            "healthy": true,
-            "healthy_error": null,
-            "home": "https://min.io",
-            "location": "/__w/truenas-charts/truenas-charts/enterprise/minio",
-            "latest_version": "1.0.7",
-            "latest_app_version": "2023-03-24",
-            "latest_human_version": "2023-03-24_1.0.7",
-            "last_update": "2023-05-03 13:56:14",
-            "name": "minio",
-            "recommended": false,
-            "title": "MinIO",
-            "maintainers": [
-                {
-                    "name": "truenas",
-                    "url": "https://www.truenas.com/",
-                    "email": "dev@ixsystems.com"
-                }
-            ],
-            "tags": [],
-            "icon_url": "https://min.io/resources/img/logo/MINIO_wordmark.png"
         }
     }
 }

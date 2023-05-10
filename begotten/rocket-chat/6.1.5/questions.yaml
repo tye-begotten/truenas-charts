@@ -28,7 +28,6 @@ portals:
       - "$node_ip"
     ports:
       - "$variable-service.nodePort"
-    path: "/"
 
 questions:
   - variable: mongodb
@@ -72,7 +71,6 @@ questions:
     group: "Rocket.Chat Configuration"
     schema:
       type: dict
-      required: true
       attrs:
         - variable: nodePort
           label: "Node Port to use for Rocket.Chat"
